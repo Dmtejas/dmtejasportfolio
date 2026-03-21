@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+body {
+  background: #0020a2;
+  /* background: linear-gradient(90deg, rgb(55, 52, 70) 0%, rgb(20, 20, 33) 35%, rgb(0, 0, 0) 84%); */
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
