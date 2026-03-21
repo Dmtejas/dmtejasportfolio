@@ -52,24 +52,23 @@ const myWorks = [
 
 const MyWork = () => {
   return (
-    <div id="myWorks" className="max-w-7xl mx-auto mt-18 pt-5">
-      <h1 className="text-5xl text-center text-white font-serif font-bold border-3 border-l-0 border-r-0 border-t-0 pb-2 border-red-600">
+    <div id="myWorks" className="max-w-xs lg:max-w-7xl mx-auto mt-18 pt-5 lg:pl-0">
+      <h1 className="text-4xl lg:text-5xl text-center lg:text-center text-white font-serif font-bold border-3 border-l-0 border-r-0 border-t-0 pb-2 border-red-600">
         My Works
       </h1>
       <div className="flex flex-col mt-10">
         {myWorks.map((element, index) => {
           return (
-            <div className="m-2 p-10 shadow-[0_0_16px_rgba(255,0,0,0.5)] flex flex-col gap-y-5 items-center rounded-xl">
+            <div className="m-2 p-2 lg:p-10 shadow-[0_0_16px_rgba(255,0,0,0.5)] flex flex-col gap-y-5 items-center rounded-xl">
                
-              <h1 className="text-4xl font-black text-red-500">{element.title}</h1>
+              <h1 className="text-2xl text-center lg:text-4xl font-black text-red-500">{element.title}</h1>
                
-              <p className="text-center text-xl">{element.description}</p>
-              <p className="text-lg">Tech Stack : {element.techStack}</p>
-              <div className="">
-                <p className="text-md font-mono">Source Code : <a href={element.github}>{element.github}</a> </p>
-              </div>
+              <p className="text-center lg:text-center text-sm lg:text-xl">{element.description}</p>
+              <p className=" text-xs lg:text-lg">Tech Stack : {element.techStack}</p>
+                {/* <p className="text-md font-mono">Source Code : {element.github} </p> */}
+              
               <a href={element.live} target="_blank" className=" flex justify-center">
-                <img className="size-1/2 rounded-xl shadow-2xl transition-all duration-300 hover:scale-200" src={element.image} alt="" />
+                <img className="lg:size-1/2 rounded-xl shadow-2xl transition-all duration-300 hover:scale-200" src={element.image} alt="" />
               </a>
               
             </div>
