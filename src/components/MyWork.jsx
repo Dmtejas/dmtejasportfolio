@@ -64,7 +64,7 @@ const MyWork = () => {
               <h1 className="text-2xl text-center lg:text-4xl font-black text-red-500">{element.title}</h1>
                
               <p className="text-center lg:text-center text-sm lg:text-xl">{element.description}</p>
-              <p className=" text-xs lg:text-lg">Tech Stack : {element.techStack}</p>
+              {/* <p className=" text-xs lg:text-lg">Tech Stack : {element.techStack}</p> */}
                 {/* <p className="text-md font-mono">Source Code : {element.github} </p> */}
               
               <a href={element.live} target="_blank" className=" flex justify-center">

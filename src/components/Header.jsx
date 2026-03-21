@@ -10,7 +10,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="lg:mt-10 lg:mx-60 flex justify-between lg:justify-around lg:border lg:border-t-0 lg:border-l-0 lg:border-r-0 border-white p-5 ">
+    <div className=" lg:mt-10 lg:mx-60 flex justify-between lg:justify-around lg:border lg:border-t-0 lg:border-l-0 lg:border-r-0 border-white p-5 ">
       <button className="lg:text-3xl text-xl font-bold flex">
           <p className="text-red-500">{left}</p>
           <p>{name}</p>
@@ -28,15 +28,15 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="flex flex-col lg:hidden items-end fixed pr-2 ">
-        <img onClick={() => setOpen(!open)} className="w-1/10 lg:hidden" src={hamburger} alt="" />
+      <div className="flex flex-col lg:hidden items-end fixed pr-7 ">
+        <img onClick={() => setOpen(!open)} className="w-1/6 bg-red-700 p-4 rounded-full lg:hidden" src={hamburger} alt="" />
         {
-          open ? <div className="flex flex-col items-start pt-4 gap-y-3 transform transition-transform duration-300 translate-x-0 bg-gray-600 mt-2 shadow-2xl rounded-2xl">
+          open ? <div className="flex flex-col items-center pt-4 gap-y-3 transform transition-transform duration-300 translate-x-0 bg-red-800 mt-2 shadow-2xl rounded-2xl pr-2 py-4">
           <HeaderButton button_name="Home" path="/" />
           <HeaderButton button_name="About" path="#about" />
           <HeaderButton button_name="Certification" path="#certification" />
           <HeaderButton button_name="My Works" path="#myWorks" />
-        </div> : <div className="flex flex-col items-end pt-4 gap-y-3 transform transition-transform duration-300 translate-x-full">
+        </div> : <div className="flex flex-col items-end pt-4 gap-y-3 transform transition-transform duration-300 translate-x-full pl-6">
           <HeaderButton button_name="Home" path="/" />
           <HeaderButton button_name="About" path="#about" />
           <HeaderButton button_name="Certification" path="#certification" />
