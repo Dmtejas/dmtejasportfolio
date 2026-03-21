@@ -6,7 +6,7 @@ const Header = () => {
   const right = ` >`;
 
   return (
-    <div className="lg:mt-10 lg:mx-60 flex lg:justify-around border border-t-0 border-l-0 border-r-0 border-white p-5 ">
+    <div className="lg:mt-10 lg:mx-60 flex lg:justify-around lg:border lg:border-t-0 lg:border-l-0 lg:border-r-0 border-white p-5 ">
       <button className="lg:text-3xl text-xl font-bold flex"><p className="text-red-500">{left}</p><p>{name}</p><p className="text-red-500">{right}</p></button>
       <div className="hidden text-xl lg:flex gap-x-10 font-bold">
         <HeaderButton button_name="Home" path="/" />

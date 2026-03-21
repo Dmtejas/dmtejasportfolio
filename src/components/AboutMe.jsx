@@ -1,6 +1,6 @@
 const AboutMe = () => {
   return (
-    <div id="about" className="max-w-xs lg:max-w-7xl pt-20 lg:pt-5 lg:pl-0 pl-2 mx-auto lg:text-center flex flex-col gap-y-5">
+    <div id="about" className="max-w-xs lg:max-w-7xl pt-26 lg:pt-5 lg:pl-0 pl-2 mx-auto lg:text-center flex flex-col gap-y-5">
       <h1 className="text-4xl lg:text-5xl font-serif font-bold text-white border-3 border-t-0 border-l-0 border-r-0 pb-2 border-red-600">About Me</h1>
       <p className="lg:text-xl text-start">
         Full-stack web developer with hands-on experience building responsive
