@@ -10,7 +10,7 @@ const Header = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className=" lg:mt-10 lg:mx-60 flex justify-between lg:justify-around lg:border lg:border-t-0 lg:border-l-0 lg:border-r-0 border-white p-5 ">
+    <div className=" lg:mt-10 lg:mx-60 flex justify-between lg:justify-around lg:border lg:border-t-0 lg:border-l-0 lg:border-r-0 border-white p-5">
       <button className="lg:text-3xl text-xl font-bold flex">
           <p className="text-red-500">{left}</p>
           <p>{name}</p>

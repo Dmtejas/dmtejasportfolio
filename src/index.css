@@ -1,10 +1,34 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Enriqueta:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Doto:wght@100..900&family=Enriqueta:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
 
 body {
   background: #000000;
   /* background: linear-gradient(90deg, rgb(55, 52, 70) 0%, rgb(20, 20, 33) 35%, rgb(0, 0, 0) 84%); */
   color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Enriqueta'
 
 }
+
+@layer utilities {
+  .font-shizuru {
+    font-family: 'Shizuru', cursive;
+  }
+
+  .font-doto {
+    font-family: 'Doto';
+  }
+  
+  .font-enriqueta {
+    font-family: 'Enriqueta'
+  }
+
+  .font-audio {
+    font-family: 'Audiowide';
+  }
+}
+
+
 
