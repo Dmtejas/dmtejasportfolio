@@ -53,7 +53,7 @@ const myWorks = [
 const MyWork = () => {
   return (
     <div id="myWorks" className="max-w-xs lg:max-w-7xl mx-auto mt-18 pt-5 lg:pl-0">
-      <h1 className="text-4xl lg:text-5xl text-center lg:text-center text-white font-serif font-bold border-3 border-l-0 border-r-0 border-t-0 pb-2 border-red-600">
+      <h1 className="text-4xl lg:text-5xl text-center lg:text-center text-white font-inter font-bold border-3 border-l-0 border-r-0 border-t-0 pb-2 border-red-600">
         My Works
       </h1>
       <div className="flex flex-col mt-10">

@@ -1,14 +1,11 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Enriqueta:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Doto:wght@100..900&family=Enriqueta:wght@400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Doto:wght@100..900&family=Enriqueta:wght@400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Doto:wght@100..900&family=Enriqueta:wght@400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Shizuru&display=swap');
 body {
   background: #000000;
   /* background: linear-gradient(90deg, rgb(55, 52, 70) 0%, rgb(20, 20, 33) 35%, rgb(0, 0, 0) 84%); */
   color: white;
-  font-family: 'Enriqueta'
+  font-family: 'Inter'
 
 }
 
@@ -27,6 +24,14 @@ body {
 
   .font-audio {
     font-family: 'Audiowide';
+  }
+
+  .font-inter {
+    font-family: 'Inter'
+  }
+
+  .font-dm {
+    font-family: 'DM Mono'
   }
 }
 

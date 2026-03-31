@@ -8,7 +8,7 @@ const Contact = () => {
       id="contact"
       className="mt-10 max-w-xs lg:max-w-7xl mx-auto w-full text-center pt-5"
     >
-      <h1 className="text-4xl lg:text-5xl font-bold font-serif border-2 border-l-0 border-r-0 border-t-0 border-red-600 pb-5">
+      <h1 className="text-4xl lg:text-5xl font-bold font-inter border-2 border-l-0 border-r-0 border-t-0 border-red-600 pb-5">
         Contact Me
       </h1>
       <div className="flex lg:flex-row flex-col mt-0 text-start text-md lg:text-xl w-full mx-auto gap-y-5 rounded-xl justify-around items-center">

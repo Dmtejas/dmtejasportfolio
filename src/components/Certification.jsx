@@ -41,7 +41,7 @@ const certifications = [
 const Certification = () => {
   return (
     <div id="certification" className="max-w-xs lg:max-w-7xl mx-auto mt-20 pt-5">
-      <h1 className="text-4xl lg:text-5xl font-bold text-center lg:text-center font-serif border-3 border-l-0 border-r-0 border-t-0 pb-2 border-red-600">
+      <h1 className="text-4xl lg:text-5xl font-bold text-center lg:text-center font-inter border-3 border-l-0 border-r-0 border-t-0 pb-2 border-red-600">
         Certifications
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-3 mt-10 w-full">
